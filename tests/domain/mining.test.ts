@@ -8,7 +8,7 @@ import {
   getFleetHashrate,
   getFleetPowerWatts,
   miners
-} from './mining';
+} from '../../src/domain/mining';
 
 describe('mining domain calculations', () => {
   it('totals active fleet hashrate and power only', () => {
